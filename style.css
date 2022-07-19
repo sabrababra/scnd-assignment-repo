@@ -1,0 +1,33 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* The Greatest show on the earth part */
+.continer{
+    background-color: #161616;
+    width: 1321px;
+    height: 522px;  
+    border-radius: 30px;
+}
+.banner-div{
+    display: flex;
+    justify-content: space-around;
+}
+.banner-text h1{
+    color: white;
+    font-size: 70px;
+
+}
+.banner-text p{
+    color: white;
+    font-size: 16px;
+
+}
+.banner-text a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 8px 10px;
+    background-color: red;
+}
+.banner-img img{
+    margin-top: 180px;
+}
