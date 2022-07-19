@@ -10,6 +10,17 @@ body{
     height: 500px;  
     border-radius: 30px;  
     margin: 0 auto;
+    animation-name: ja-khusi;
+    animation-duration: 6s;
+    animation-play-state: running;
+}
+@keyframes ja-khusi {
+    from{
+        background-color: #161616;
+    }
+    to{
+        background-color: #00203F;
+    }
 }
 .banner-div{
     
