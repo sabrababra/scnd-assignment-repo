@@ -3,6 +3,7 @@
 /* The Greatest show on the earth part start */
 body {
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 .continer {
   background-color: #00203f;
@@ -30,11 +31,11 @@ body {
 }
 .banner-text h1 {
   color: white;
-  font-size: 70px;
+  font-size: 50px;
 }
 .banner-text p {
   color: white;
-  font-size: 16px;
+  font-size: 14px;
   margin-top: -40px;
   margin-bottom: 40px;
   width: 50%;
@@ -207,6 +208,10 @@ footer hr {
     flex-direction: row;
     align-items: flex-start;
   }
+  .btn a {
+
+    font-size: 16px;
+  }
   #a1,
   #a2,
   #a3 {
@@ -215,7 +220,8 @@ footer hr {
     margin-right: 15px;
   }
   .banner-text h1 {
-    font-size: 50px;
+    font-size: 40px;
+    margin-top: -25px;
   }
   .see-more {
     display: block;
@@ -278,6 +284,10 @@ footer hr {
     text-overflow: ellipsis;
     overflow: hidden;
   }
+  .btn a {
+
+    font-size: 16px;
+  }
 
   .blogs {
     grid-template-columns: repeat(1, 1fr);
@@ -294,6 +304,7 @@ footer hr {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-bottom: 1px;
   }
   .see-more {
     display: none;
