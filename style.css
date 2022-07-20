@@ -256,5 +256,9 @@ footer hr {
   footer {
     height: 100%;
   }
+  .social-midea a {
+    font-size: 20px;
+    margin: 0 30px;
+  }
 }
 /* mobile view end */
