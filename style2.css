@@ -182,6 +182,9 @@ footer hr {
 
 /* Tablet view */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
+  .banner-text{
+    margin-top: 100px;
+  }
   .continer {
     width: 100%;
     height: 100%;
@@ -243,6 +246,11 @@ footer hr {
 
 /* mobile view */
 @media only screen and (max-width: 576px) {
+  .banner-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .banner-div {
     flex-direction: column;
   }
@@ -260,6 +268,11 @@ footer hr {
     font-size: 16px;
     margin-top: 15px;
     text-align: center;
+    width: 100px;
+    /* border: 2px solid  #adf0d1; */
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
   }
 
   .blogs {
