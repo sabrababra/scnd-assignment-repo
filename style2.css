@@ -7,7 +7,6 @@ body {
 .continer {
   background-color: #00203f;
   width: 1250px;
-  height: 500px;
   border-radius: 30px;
   margin: 0 auto;
   animation-name: ja-khusi;
@@ -38,6 +37,7 @@ body {
   font-size: 16px;
   margin-top: -40px;
   margin-bottom: 40px;
+  width: 50%;
 }
 .banner-text a {
   text-decoration: none;
@@ -49,7 +49,8 @@ body {
   border-radius: 5px;
 }
 .banner-img img {
-  margin-top: 158px;
+  margin-top: 175px;
+  margin-bottom: -4px;
 }
 /* The Greatest show on the earth part end */
 /* blog start */
@@ -183,7 +184,7 @@ footer hr {
 /* Tablet view */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
   .banner-text{
-    margin-top: 100px;
+    margin-top: 75px;
   }
   .continer {
     width: 100%;
@@ -212,6 +213,9 @@ footer hr {
     border: 1px solid #4e4e4e;
     margin-top: 15px;
     margin-right: 15px;
+  }
+  .banner-text h1 {
+    font-size: 50px;
   }
   .see-more {
     display: block;

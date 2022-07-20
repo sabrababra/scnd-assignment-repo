@@ -7,7 +7,6 @@ body {
 .continer {
   background-color: #00203f;
   width: 1250px;
-  height: 500px;
   border-radius: 30px;
   margin: 0 auto;
   animation-name: ja-khusi;
@@ -39,11 +38,7 @@ body {
   margin-top: -40px;
   margin-bottom: 40px;
   width: 50%;
-  text-align: justify;
 }
-/* .mobile{
-  display: none;
-} */
 .banner-text a {
   text-decoration: none;
   color: #00203f;
@@ -54,7 +49,8 @@ body {
   border-radius: 5px;
 }
 .banner-img img {
-  margin-top: 158px;
+  margin-top: 175px;
+  margin-bottom: -4px;
 }
 /* The Greatest show on the earth part end */
 /* blog start */
@@ -187,14 +183,14 @@ footer hr {
 
 /* Tablet view */
 @media only screen and (min-width: 577px) and (max-width: 992px) {
+  .banner-text{
+    margin-top: 75px;
+  }
   .continer {
     width: 100%;
     height: 100%;
   }
-  /* .mobile{
-    display: none;
-  } */
-   .tablet {
+  .tablet {
     display: none;
   }
   .blog-continer {
@@ -218,6 +214,9 @@ footer hr {
     margin-top: 15px;
     margin-right: 15px;
   }
+  .banner-text h1 {
+    font-size: 50px;
+  }
   .see-more {
     display: block;
     border: none;
@@ -225,7 +224,6 @@ footer hr {
     color: #adf0d1;
     padding: 15px 32px;
     font-size: 16px;
-    margin: 0 auto;
     margin-right: -129px;
     margin-left: 208px;
   }
@@ -269,18 +267,6 @@ footer hr {
     font-size: 40px;
     text-align: center;
   }
-  /* .mobile{
-    color: white;
-    font-size: 16px;
-    margin-top: 15px;
-    text-align: center;
-    width: 100px;
-    border: 2px solid  #adf0d1;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-  } */
-  
   .banner-text p {
     color: white;
     font-size: 16px;
@@ -291,7 +277,6 @@ footer hr {
     white-space: nowrap;
     text-overflow: ellipsis;
     overflow: hidden;
-    
   }
 
   .blogs {
